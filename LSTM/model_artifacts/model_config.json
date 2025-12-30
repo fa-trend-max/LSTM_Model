@@ -1,0 +1,21 @@
+{
+  "num_patterns": 45,
+  "hidden_size": 64,
+  "num_layers": 1,
+  "dropout": 0.4,
+  "sequence_length": 30,
+  "learning_rate": 0.0003,
+  "batch_size": 128,
+  "num_horizons": 7,
+  "prediction_horizons": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "best_epoch": 2,
+  "best_val_loss": 0.7236088911692301
+}
